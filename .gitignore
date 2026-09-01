@@ -50,7 +50,12 @@ fp-info-cache
 
 /build
 
-# Netlist files (exported from Eeschema)
+.hi
+
+.hi
+
+.histrory
+#netlist files (exported from Eeschema)
 
 *.net
 
