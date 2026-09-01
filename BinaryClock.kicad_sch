@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 50.8 90.17)
-		(size 43.18 29.21)
+		(size 19.05 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "clk.kicad_sch"
-			(at 50.8 119.9646 0)
+			(at 50.8 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +41,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CLK" output
+			(at 69.85 93.98 0)
+			(uuid "606b3ef9-39fd-44e9-90b6-25661a33547c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

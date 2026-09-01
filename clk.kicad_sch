@@ -1543,6 +1543,54 @@
 		(color 0 0 0 0)
 		(uuid "fb3e6bb0-0e67-4d3f-89a4-46d88589b464")
 	)
+	(no_connect
+		(at 128.27 86.36)
+		(uuid "089b5ac4-9ddb-4cf0-8666-291dfffb463f")
+	)
+	(no_connect
+		(at 128.27 93.98)
+		(uuid "25db4cb9-63a2-44f9-8a18-1f8cd58cdc3e")
+	)
+	(no_connect
+		(at 128.27 71.12)
+		(uuid "334bcbcb-5906-4db7-89ba-e46dc2b7cb89")
+	)
+	(no_connect
+		(at 128.27 73.66)
+		(uuid "3907c5a6-0424-4c79-9ced-6841d51cb613")
+	)
+	(no_connect
+		(at 128.27 83.82)
+		(uuid "5b40d437-2bd7-49d6-9359-9a7e1a54a749")
+	)
+	(no_connect
+		(at 208.28 69.85)
+		(uuid "8791702d-488d-4e06-a08a-e86e45585b9e")
+	)
+	(no_connect
+		(at 128.27 78.74)
+		(uuid "b0c5e89d-986e-4296-bf92-46e4cf6d0b96")
+	)
+	(no_connect
+		(at 128.27 81.28)
+		(uuid "b2b02d34-9714-463b-9d16-c0c38a561bac")
+	)
+	(no_connect
+		(at 102.87 71.12)
+		(uuid "b97fe191-b969-41b1-a0c6-6cd35355cce9")
+	)
+	(no_connect
+		(at 128.27 91.44)
+		(uuid "daefed92-0bfc-4a72-914f-e4664ccfb0ec")
+	)
+	(no_connect
+		(at 208.28 64.77)
+		(uuid "e6f8e41b-7fb8-4726-87d2-730bb1ac0263")
+	)
+	(no_connect
+		(at 128.27 76.2)
+		(uuid "e9ff1aaf-4d26-479e-9279-689c25e9d838")
+	)
 	(wire
 		(pts
 			(xy 69.85 78.74) (xy 69.85 82.55)
@@ -1941,6 +1989,84 @@
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36759eb1-9895-43b2-a9dd-73c05942d0a8")
+		(property "Reference" "#PWR013"
+			(at 200.66 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d45110ca-a918-415b-b5eb-76e666f2e35e")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2625,6 +2751,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 193.04 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87e079b0-7b4a-4e89-8e86-c3f873dd4475")
+		(property "Reference" "#PWR011"
+			(at 186.69 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cc06b43-62f0-4c87-b3ca-cf54fedfffde")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 156.21 88.9 180)
 		(unit 1)
 		(body_style 1)
@@ -3023,6 +3228,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 200.66 59.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01fa520-4db9-421a-bce2-8d46947e9816")
+		(property "Reference" "#PWR010"
+			(at 200.66 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ea98163-137c-4288-8416-182056ef49ff")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 102.87 81.28 270)
 		(unit 1)
 		(body_style 1)
@@ -3095,6 +3378,85 @@
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 67.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc31309f-0470-4fdf-a2a9-b8383c72e3e3")
+		(property "Reference" "#PWR012"
+			(at 186.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "830b73f7-6636-4230-94ca-6d5cd59b6912")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
