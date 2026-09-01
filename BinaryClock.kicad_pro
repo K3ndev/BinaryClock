@@ -451,6 +451,14 @@
     [
       "06cc8139-062b-489e-8e2f-c0ae5744b4b6",
       "Clk"
+    ],
+    [
+      "d72dbc43-5f9c-4389-b46b-bcc9f20f0691",
+      "Counters"
+    ],
+    [
+      "02494b62-5cd5-41fe-b50f-3d6e2444706b",
+      "sec"
     ]
   ],
   "text_variables": {},
