@@ -1951,7 +1951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "018543dc-d5c8-4435-bb03-fdc01d888a3a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 66.04 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2012,7 +2012,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2109,7 +2109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04685cc5-668d-4985-bb50-2daebbfb4713")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 66.04 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2170,123 +2170,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4081")
-		(at 124.46 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0991004b-c302-45bd-a71a-2f43d3782e8f")
-		(property "Reference" "U5"
-			(at 124.4517 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4081"
-			(at 124.4517 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 124.46 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad And 2 inputs"
-			(at 124.46 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "5240458a-b189-4818-968b-bc01eb662e38")
-		)
-		(pin "6"
-			(uuid "e91fca3f-eb48-4c26-b6aa-9266e7a19dd6")
-		)
-		(pin "1"
-			(uuid "536a62b7-f58b-4ddb-b6bd-24c61985d380")
-		)
-		(pin "13"
-			(uuid "f9bcd4a2-7e28-4360-a2e6-d78328d6e54a")
-		)
-		(pin "14"
-			(uuid "63900b2d-9fb8-4b70-b485-3d648d495e4c")
-		)
-		(pin "8"
-			(uuid "ef3b34d6-0e15-4ee0-b807-92b0031c02ea")
-		)
-		(pin "10"
-			(uuid "8b9a2615-9ff0-4f85-bcca-5717172816de")
-		)
-		(pin "9"
-			(uuid "ff75115c-d583-4048-8015-2eb669dccc9f")
-		)
-		(pin "3"
-			(uuid "3ad736d8-d5ac-4b63-8b12-b6df6ced665f")
-		)
-		(pin "2"
-			(uuid "4273af19-95b0-4596-91d1-9af76a4e561e")
-		)
-		(pin "5"
-			(uuid "d664b66a-3648-4805-bf54-99a0ad116bc4")
-		)
-		(pin "7"
-			(uuid "6b1c31b7-7990-4ad1-ab07-3e76ad8fdc64")
-		)
-		(pin "11"
-			(uuid "3858a8e1-bed4-4711-81b8-17c3d139cad6")
-		)
-		(pin "12"
-			(uuid "7113653a-e8df-46fe-8504-7685e56d469a")
-		)
-		(instances
-			(project "BinaryClock"
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "U5")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2539,7 +2423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25de5fe6-5276-4cfb-886f-e68ffdcbc24d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR021"
 			(at 76.2 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2600,7 +2484,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2697,7 +2581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31d1b420-55b8-4c68-b50e-e6737beee901")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR023"
 			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2757,7 +2641,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR014")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2775,7 +2659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "468a3aed-6153-4a40-ad31-29f19218bcb4")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 66.04 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2836,7 +2720,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2854,7 +2738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46a01592-1b0b-47d4-8662-a4e4d1b03bae")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 218.4317 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2952,7 +2836,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "U4")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -3128,7 +3012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650f116d-86a7-4c3a-89a9-8447addf7aa1")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 181.2133 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +3118,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3252,7 +3136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aeb70e4-f986-45e9-90b1-b4d1277b9b30")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 66.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3313,7 +3197,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3331,7 +3215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fad8365-87b3-4a2a-89ba-5fc2212413c3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR014"
 			(at 50.8 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -3391,7 +3275,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR023")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706473c9-1881-4435-b605-8d98e52ccb50")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 66.04 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3470,7 +3354,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3488,7 +3372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "754854b5-f0fd-4861-b94a-d1ce888d4b1f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR015"
 			(at 50.8 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -3548,7 +3432,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR024")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3566,7 +3450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783920a1-57be-4177-882b-24662c3100ca")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR024"
 			(at 85.09 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3626,7 +3510,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR015")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3644,7 +3528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a37c8b-a988-4c4f-a612-a1bc3485a506")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 87.2333 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,6 +3634,122 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4081")
+		(at 124.46 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b23913b-f620-4b67-916f-ab76b59ccb85")
+		(property "Reference" "U3"
+			(at 124.4517 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4081"
+			(at 124.4517 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad And 2 inputs"
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "55f2d835-7a24-47d5-be25-d5e146c2f847")
+		)
+		(pin "14"
+			(uuid "9110c1a9-74f4-4915-8caf-ad541a3bcc72")
+		)
+		(pin "5"
+			(uuid "0177439b-cdbb-4700-b622-59b04c7e5cf2")
+		)
+		(pin "9"
+			(uuid "88707022-468b-403f-84f9-7fc57efe929e")
+		)
+		(pin "11"
+			(uuid "35f23ddd-c819-4b2e-afd7-5aa383eed965")
+		)
+		(pin "10"
+			(uuid "3f61b456-3df7-4693-9d37-602aa6983256")
+		)
+		(pin "8"
+			(uuid "92abfcbd-96c6-4781-940a-87c93d0ef156")
+		)
+		(pin "7"
+			(uuid "70aeb262-bd9e-449a-a8fd-15ebb37a7a59")
+		)
+		(pin "4"
+			(uuid "3f78929d-cfe7-4262-9242-81f91ef48b71")
+		)
+		(pin "3"
+			(uuid "081f6cde-5643-47e6-ba22-435a4d80a0e5")
+		)
+		(pin "2"
+			(uuid "c005d706-2c1d-47bb-b65c-f2fb697988af")
+		)
+		(pin "1"
+			(uuid "bf693737-eb25-4338-8c2a-3b0902387fe2")
+		)
+		(pin "6"
+			(uuid "c290a2b8-eb7b-4538-be28-f24b2bda18af")
+		)
+		(pin "12"
+			(uuid "19ca8b69-17cc-4acc-821e-4547cc53fa84")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
 					(reference "U3")
 					(unit 1)
 				)
@@ -3768,7 +3768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "916e8b40-79db-4fab-b0b9-5121400e14cf")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 57.15 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3868,7 +3868,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "U4")
+					(reference "U3")
 					(unit 5)
 				)
 			)
@@ -3886,7 +3886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4d56d5a-b2b2-4760-ad06-549e8dad6a75")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR022"
 			(at 66.04 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3947,7 +3947,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/02494b62-5cd5-41fe-b50f-3d6e2444706b"
-					(reference "#PWR017")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
