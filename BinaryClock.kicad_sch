@@ -5,6 +5,16 @@
 	(uuid "b8db7867-2c41-4996-89b7-85623a375f4b")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 69.85 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efcc219-a828-4d90-b561-adc5f8fe2d5b")
+	)
 	(sheet
 		(at 50.8 90.17)
 		(size 19.05 7.62)
@@ -97,6 +107,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 88.9 93.98 180)
+			(uuid "94da6c4a-472f-47d3-859b-fa41c1236999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
