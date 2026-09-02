@@ -2917,19 +2917,19 @@
 			(uuid "d092bf43-23f1-48c5-a85c-e8b8668fb016")
 		)
 		(pin "13"
-			(uuid "f9bcd4a2-7e28-4360-a2e6-d78328d6e54a")
+			(uuid "f9bcd4a2-7e28-4360-a2e6-d78328d6e54b")
 		)
 		(pin "14"
-			(uuid "63900b2d-9fb8-4b70-b485-3d648d495e4c")
+			(uuid "63900b2d-9fb8-4b70-b485-3d648d495e4d")
 		)
 		(pin "8"
-			(uuid "ef3b34d6-0e15-4ee0-b807-92b0031c02ea")
+			(uuid "ef3b34d6-0e15-4ee0-b807-92b0031c02eb")
 		)
 		(pin "10"
-			(uuid "8b9a2615-9ff0-4f85-bcca-5717172816de")
+			(uuid "8b9a2615-9ff0-4f85-bcca-5717172816df")
 		)
 		(pin "9"
-			(uuid "ff75115c-d583-4048-8015-2eb669dccc9f")
+			(uuid "ff75115c-d583-4048-8015-2eb669dccca0")
 		)
 		(pin "3"
 			(uuid "e9b17f0a-737b-4058-92f9-509dfcee38fb")
@@ -2941,13 +2941,13 @@
 			(uuid "47c2854f-de9d-491d-bcf9-48b9e0d80a10")
 		)
 		(pin "7"
-			(uuid "6b1c31b7-7990-4ad1-ab07-3e76ad8fdc64")
+			(uuid "6b1c31b7-7990-4ad1-ab07-3e76ad8fdc65")
 		)
 		(pin "11"
-			(uuid "3858a8e1-bed4-4711-81b8-17c3d139cad6")
+			(uuid "3858a8e1-bed4-4711-81b8-17c3d139cad7")
 		)
 		(pin "12"
-			(uuid "7113653a-e8df-46fe-8504-7685e56d469a")
+			(uuid "7113653a-e8df-46fe-8504-7685e56d469b")
 		)
 		(instances
 			(project "BinaryClock"
@@ -3982,46 +3982,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "5240458a-b189-4818-968b-bc01eb662e38")
+			(uuid "5240458a-b189-4818-968b-bc01eb662e39")
 		)
 		(pin "6"
-			(uuid "e91fca3f-eb48-4c26-b6aa-9266e7a19dd6")
+			(uuid "e91fca3f-eb48-4c26-b6aa-9266e7a19dd7")
 		)
 		(pin "1"
-			(uuid "d092bf43-23f1-48c5-a85c-e8b8668fb016")
+			(uuid "d092bf43-23f1-48c5-a85c-e8b8668fb017")
 		)
 		(pin "13"
-			(uuid "f9bcd4a2-7e28-4360-a2e6-d78328d6e54a")
+			(uuid "f9bcd4a2-7e28-4360-a2e6-d78328d6e54c")
 		)
 		(pin "14"
 			(uuid "ce8f737e-5b85-4e73-9295-cf74ba6c9366")
 		)
 		(pin "8"
-			(uuid "ef3b34d6-0e15-4ee0-b807-92b0031c02ea")
+			(uuid "ef3b34d6-0e15-4ee0-b807-92b0031c02ec")
 		)
 		(pin "10"
-			(uuid "8b9a2615-9ff0-4f85-bcca-5717172816de")
+			(uuid "8b9a2615-9ff0-4f85-bcca-5717172816e0")
 		)
 		(pin "9"
-			(uuid "ff75115c-d583-4048-8015-2eb669dccc9f")
+			(uuid "ff75115c-d583-4048-8015-2eb669dccca1")
 		)
 		(pin "3"
-			(uuid "e9b17f0a-737b-4058-92f9-509dfcee38fb")
+			(uuid "e9b17f0a-737b-4058-92f9-509dfcee38fc")
 		)
 		(pin "2"
-			(uuid "8e2251e8-3895-4ee5-8498-28880d842e67")
+			(uuid "8e2251e8-3895-4ee5-8498-28880d842e68")
 		)
 		(pin "5"
-			(uuid "d664b66a-3648-4805-bf54-99a0ad116bc4")
+			(uuid "d664b66a-3648-4805-bf54-99a0ad116bc5")
 		)
 		(pin "7"
 			(uuid "30ece0de-71f4-4383-b6f4-31d2a0acd3f8")
 		)
 		(pin "11"
-			(uuid "3858a8e1-bed4-4711-81b8-17c3d139cad6")
+			(uuid "3858a8e1-bed4-4711-81b8-17c3d139cad8")
 		)
 		(pin "12"
-			(uuid "7113653a-e8df-46fe-8504-7685e56d469a")
+			(uuid "7113653a-e8df-46fe-8504-7685e56d469c")
 		)
 		(instances
 			(project "BinaryClock"
