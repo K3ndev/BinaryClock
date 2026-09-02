@@ -1532,6 +1532,12 @@
 		(uuid "5d29bfee-5502-4b0f-bc73-ec0bbe64274a")
 	)
 	(junction
+		(at 152.4 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dcd66a9-5ba6-442f-ac1a-a787d946f847")
+	)
+	(junction
 		(at 86.36 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1542,6 +1548,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb3e6bb0-0e67-4d3f-89a4-46d88589b464")
+	)
+	(junction
+		(at 115.57 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8b2779-efa0-4323-8118-5215089368f5")
 	)
 	(no_connect
 		(at 128.27 86.36)
@@ -1590,6 +1602,16 @@
 	(no_connect
 		(at 128.27 76.2)
 		(uuid "e9ff1aaf-4d26-479e-9279-689c25e9d838")
+	)
+	(wire
+		(pts
+			(xy 115.57 58.42) (xy 115.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba73138-90fc-4dc5-bb36-dfe988dbe85f")
 	)
 	(wire
 		(pts
@@ -1683,6 +1705,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 60.96) (xy 115.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2d9075-db8b-4bd6-a624-f25aa7ea487d")
+	)
+	(wire
+		(pts
 			(xy 128.27 96.52) (xy 148.59 96.52)
 		)
 		(stroke
@@ -1710,6 +1742,26 @@
 			(type default)
 		)
 		(uuid "d8aaa979-2ce0-49bb-808c-a8de187b473a")
+	)
+	(wire
+		(pts
+			(xy 152.4 124.46) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf88b85-442f-47b3-8235-ad4986ec923d")
+	)
+	(wire
+		(pts
+			(xy 152.4 121.92) (xy 152.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd17202c-d47d-4546-a6a2-191ef7bdb137")
 	)
 	(wire
 		(pts
@@ -1917,8 +1969,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 152.4 113.03 0)
+		(lib_id "power:GND")
+		(at 144.78 124.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1927,9 +1979,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0c6b5607-272b-4c37-8907-f4db20e445c3")
-		(property "Reference" "#PWR06"
-			(at 152.4 116.84 0)
+		(uuid "231ee023-0064-4855-94cf-5919a110316c")
+		(property "Reference" "#PWR0109"
+			(at 138.43 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1939,18 +1991,19 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 152.4 107.95 0)
+		(property "Value" "GND"
+			(at 140.97 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 113.03 0)
+			(at 144.78 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1961,7 +2014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 113.03 0)
+			(at 144.78 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,8 +2024,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1983,12 +2036,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa82fb1d-9954-484e-95e7-4a27819f8c6e")
+			(uuid "4efc4519-0250-42cf-a637-cff62f60585f")
 		)
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR06")
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2823f287-c690-4ac3-a8c8-dd7f6ecfc069")
+		(property "Reference" "#PWR0107"
+			(at 101.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1698055a-90fe-456a-90d1-9a253874a580")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -2309,84 +2441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 115.57 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5af32aaa-d5df-4122-bce4-3d11603cbbcc")
-		(property "Reference" "#PWR04"
-			(at 115.57 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 115.57 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 115.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acfbfbe1-d1ae-4737-a443-d9a9655efd88")
-		)
-		(instances
-			(project "BinaryClock"
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 78.74 71.12 90)
 		(unit 1)
@@ -2476,7 +2530,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "679e1631-ec85-459f-a6bc-7a4768c95b5f")
 		(property "Reference" "#PWR09"
 			(at 156.21 110.49 0)
@@ -2490,7 +2543,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 109.22 0)
+			(at 156.21 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3070,8 +3123,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 152.4 133.35 0)
+		(lib_id "power:+5V")
+		(at 152.4 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3080,9 +3133,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2c7bb38-0ddd-4b3b-bff7-790b1118a43a")
-		(property "Reference" "#PWR07"
-			(at 152.4 139.7 0)
+		(uuid "9870ad68-9c2c-4bb0-99bc-51568abf2425")
+		(property "Reference" "#PWR0110"
+			(at 152.4 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3092,8 +3145,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 152.4 138.43 0)
+		(property "Value" "+5V"
+			(at 152.4 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3103,7 +3156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 133.35 0)
+			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3114,7 +3167,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 133.35 0)
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cfd9bf1-b941-49eb-b023-3453b32c347a")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c7bb38-0ddd-4b3b-bff7-790b1118a43a")
+		(property "Reference" "#PWR07"
+			(at 152.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,7 +3256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 133.35 0)
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3305,6 +3436,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 148.59 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3051017-5a85-4ff3-98ae-22869333b998")
+		(property "Reference" "C17"
+			(at 148.59 121.158 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 148.59 127.762 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 123.4948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ac9b975-03f7-448a-a464-abf45a414487")
+		)
+		(pin "2"
+			(uuid "91b87983-307b-44bc-a3d3-37d75085177b")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 81.28 270)
 		(unit 1)
@@ -3378,6 +3588,163 @@
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf8a3500-cbcc-443e-a11e-3a66a51da955")
+		(property "Reference" "#PWR0108"
+			(at 115.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 115.57 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a9053f6-4c54-44a9-bfcb-1939dfbd9bf9")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc9e635e-1d54-4778-88ef-d4415250ef3d")
+		(property "Reference" "C16"
+			(at 111.76 57.658 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 111.76 64.262 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 59.9948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.76 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adb5edcb-93ec-48dc-ae0f-05ac6ffe3636")
+		)
+		(pin "2"
+			(uuid "63f4abb5-9c68-4755-b7e0-a53dd4f9ac26")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3464,7 +3831,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4013")
-		(at 152.4 123.19 0)
+		(at 152.4 139.7 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3475,7 +3842,7 @@
 		(fields_autoplaced yes)
 		(uuid "f39bf809-2e90-4bfd-afc0-b94410287288")
 		(property "Reference" "U2"
-			(at 158.75 121.9199 0)
+			(at 158.75 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3486,7 +3853,7 @@
 			)
 		)
 		(property "Value" "4013"
-			(at 158.75 124.4599 0)
+			(at 158.75 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3497,7 +3864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 123.19 0)
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +3875,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
-			(at 152.4 123.19 0)
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3519,7 +3886,7 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
-			(at 152.4 123.19 0)
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
