@@ -440,7 +440,7 @@
         "uuid": "b8db7867-2c41-4996-89b7-85623a375f4b"
       }
     ],
-    "used_designators": "SW1-4,C1-4,R1-6,#PWR1-65,Y1,U1-9",
+    "used_designators": "SW1-4,C1-6,R1-10,#PWR1-89,Y1,U1-12",
     "variants": []
   },
   "sheets": [
@@ -463,6 +463,10 @@
     [
       "8f29d748-f0e9-4594-b3bf-d81643fe275d",
       "min"
+    ],
+    [
+      "db7714c7-dada-4319-8be1-b68a5be595c2",
+      "hour"
     ]
   ],
   "text_variables": {},
