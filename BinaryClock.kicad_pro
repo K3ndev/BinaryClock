@@ -475,6 +475,10 @@
     [
       "db7714c7-dada-4319-8be1-b68a5be595c2",
       "hour"
+    ],
+    [
+      "eb60eb51-10a3-4e1a-9546-15b4580a9674",
+      "power"
     ]
   ],
   "text_variables": {},
