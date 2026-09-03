@@ -2000,7 +2000,7 @@
 				)
 			)
 		)
-		(property "Value" "75uF"
+		(property "Value" "10uF"
 			(at 93.091 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
