@@ -425,7 +425,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -484,7 +484,7 @@
         "uuid": "b8db7867-2c41-4996-89b7-85623a375f4b"
       }
     ],
-    "used_designators": "RN1-6,SW1-4,D1-24,C1-20,R1-16,#PWR1-137,Y1,U1-14",
+    "used_designators": "RN1-18,SW1-4,D1-24,C1-20,R1-16,#PWR1-137,Y1,U1-14",
     "variants": []
   },
   "sheets": [
