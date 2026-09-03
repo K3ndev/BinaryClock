@@ -390,12 +390,48 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -448,7 +484,7 @@
         "uuid": "b8db7867-2c41-4996-89b7-85623a375f4b"
       }
     ],
-    "used_designators": "SW1-4,C1-20,R1-13,#PWR1-113,Y1,U1-14",
+    "used_designators": "RN1-6,SW1-4,D1-24,C1-20,R1-16,#PWR1-137,Y1,U1-14",
     "variants": []
   },
   "sheets": [
@@ -479,6 +515,30 @@
     [
       "eb60eb51-10a3-4e1a-9546-15b4580a9674",
       "power"
+    ],
+    [
+      "c511b7b7-1902-4f18-9b6d-bdf563bc0fbd",
+      "sec_display"
+    ],
+    [
+      "a2fc0f23-edba-4a42-809e-31a5704900ef",
+      "t-sec_display"
+    ],
+    [
+      "72c2d78a-d678-45bf-be56-716a4bf4e93c",
+      "min_display"
+    ],
+    [
+      "9d667165-1e46-420a-b7c2-c853bd88335e",
+      "hour_display"
+    ],
+    [
+      "ca0ecceb-e5a9-4cc1-9364-faafc2408685",
+      "t-min_display"
+    ],
+    [
+      "8a27fff0-1362-4f1a-9796-2225af35d845",
+      "t-hour_display"
     ]
   ],
   "text_variables": {},
