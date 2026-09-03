@@ -128,13 +128,12 @@
 		)
 	)
 	(sheet
-		(at 76.2 63.5)
-		(size 12.7 12.7)
+		(at 68.58 63.5)
+		(size 21.59 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -144,7 +143,7 @@
 		)
 		(uuid "eb60eb51-10a3-4e1a-9546-15b4580a9674")
 		(property "Sheetname" "power"
-			(at 76.2 62.7884 0)
+			(at 68.58 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -155,7 +154,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 76.2 76.7846 0)
+			(at 69.088 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
