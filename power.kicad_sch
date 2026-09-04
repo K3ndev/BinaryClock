@@ -1435,7 +1435,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ebe8fe7-05bc-436b-a06c-2ad3cc77402b")
+			(uuid "3ebe8fe7-05bc-436b-a06c-2ad3cc77402c")
 		)
 		(instances
 			(project "BinaryClock"
@@ -2010,7 +2010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm"
 			(at 97.79 103.1748 0)
 			(hide yes)
 			(show_name no)
@@ -2034,17 +2034,6 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 93.98 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C88726"
-			(at 93.98 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,10 +2280,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f34e8c7-fbc1-4db2-82a2-f0b79de0234e")
+			(uuid "0f34e8c7-fbc1-4db2-82a2-f0b79de0234f")
 		)
 		(pin "1"
-			(uuid "8642d27a-147e-4507-ae72-af35857bf46f")
+			(uuid "8642d27a-147e-4507-ae72-af35857bf470")
 		)
 		(instances
 			(project "BinaryClock"
@@ -2414,7 +2403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -2438,17 +2427,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 93.98 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2170999"
-			(at 93.98 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

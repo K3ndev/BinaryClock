@@ -206,14 +206,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:4D03WGJ0102T5E"
+		(symbol "Device:R_Pack04_SIP"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "RN"
-				(at 0 8.89 0)
+				(at -15.24 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -222,8 +226,8 @@
 					)
 				)
 			)
-			(property "Value" "4D03WGJ0102T5E"
-				(at 0 -8.89 0)
+			(property "Value" "R_Pack04_SIP"
+				(at 15.24 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -232,19 +236,8 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Resistor-Networks-Arrays_1KR-102-5_C20197.html"
-				(at 0 -13.97 0)
+			(property "Footprint" "Resistor_THT:R_Array_SIP8"
+				(at 17.145 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -254,7 +247,7 @@
 					)
 				)
 			)
-			(property "Description" "1KΩ (102) ±5%"
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -265,40 +258,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "4D03WGJ0102T5E"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C20197"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
+			(property "Description" "4 resistor network, parallel topology, SIP package"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -309,10 +269,54 @@
 					)
 				)
 			)
-			(symbol "4D03WGJ0102T5E_0_1"
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Pack04_SIP_0_1"
+				(rectangle
+					(start -13.97 -1.905)
+					(end 13.97 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -13.462 2.794)
+					(end -11.938 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -3.81 6.35) (xy -3.81 -6.35)
+						(xy -12.7 2.794) (xy -12.7 3.556) (xy -10.16 3.556) (xy -10.16 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -322,9 +326,20 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -5.842 2.794)
+					(end -4.318 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -3.81 6.35) (xy 3.81 6.35)
+						(xy -5.08 2.794) (xy -5.08 3.556) (xy -2.54 3.556) (xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -334,9 +349,20 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 1.778 2.794)
+					(end 3.302 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -3.81 3.81) (xy -2.29 3.81)
+						(xy 2.54 2.794) (xy 2.54 3.556) (xy 5.08 3.556) (xy 5.08 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -346,9 +372,20 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 9.398 2.794)
+					(end 10.922 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -3.81 1.27) (xy -2.29 1.27)
+						(xy 10.16 2.794) (xy 10.16 3.556) (xy 12.7 3.556) (xy 12.7 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -358,202 +395,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -2.29 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -2.29 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -6.35) (xy 3.81 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 4.32) (xy 2.29 4.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 4.32) (xy -2.29 3.3) (xy 2.29 3.3) (xy 2.29 4.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 1.78) (xy 2.29 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 1.78) (xy -2.29 0.76) (xy 2.29 0.76) (xy 2.29 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 -0.76) (xy 2.29 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 -0.76) (xy -2.29 -1.78) (xy 2.29 -1.78) (xy 2.29 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 -3.3) (xy 2.29 -3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 -3.3) (xy -2.29 -4.32) (xy 2.29 -4.32) (xy 2.29 -3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.29 3.81) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.29 1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.29 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.29 -3.81) (xy 3.81 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 6.35) (xy 3.81 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -8.89 3.81 0)
-					(length 5.08)
-					(name "1"
+			)
+			(symbol "R_Pack04_SIP_1_1"
+				(pin passive line
+					(at -12.7 -5.08 90)
+					(length 3.81)
+					(name "R1.1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -568,10 +415,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 1.27 0)
-					(length 5.08)
-					(name "2"
+				(pin passive line
+					(at -10.16 -5.08 90)
+					(length 3.81)
+					(name "R1.2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -586,10 +433,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 -1.27 0)
-					(length 5.08)
-					(name "3"
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 3.81)
+					(name "R2.1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -604,10 +451,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 -3.81 0)
-					(length 5.08)
-					(name "4"
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 3.81)
+					(name "R2.2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -622,10 +469,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 -3.81 180)
-					(length 5.08)
-					(name "5"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 3.81)
+					(name "R3.1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -640,10 +487,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 -1.27 180)
-					(length 5.08)
-					(name "6"
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 3.81)
+					(name "R3.2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -658,10 +505,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 1.27 180)
-					(length 5.08)
-					(name "7"
+				(pin passive line
+					(at 10.16 -5.08 90)
+					(length 3.81)
+					(name "R4.1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -676,10 +523,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 3.81 180)
-					(length 5.08)
-					(name "8"
+				(pin passive line
+					(at 12.7 -5.08 90)
+					(length 3.81)
+					(name "R4.2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -815,57 +662,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 83.82 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39b9890a-3cd3-4aa0-bd3e-60933ae10371")
-	)
-	(wire
-		(pts
-			(xy 83.82 99.06) (xy 83.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c30f05-2e4a-455e-afab-3c1053cd3579")
-	)
-	(wire
-		(pts
-			(xy 86.36 114.3) (xy 86.36 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f0dbbc-1703-4770-8c35-7ee43437e2c6")
-	)
-	(wire
-		(pts
-			(xy 86.36 99.06) (xy 86.36 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5764b56b-2a2a-4713-b1a4-b1bab6498e28")
-	)
-	(wire
-		(pts
-			(xy 83.82 106.68) (xy 83.82 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "917a35b6-71d4-40a3-841f-baf2a1a9e61c")
-	)
-	(wire
-		(pts
-			(xy 71.12 106.68) (xy 83.82 106.68)
+			(xy 71.12 106.68) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -875,27 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 86.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b3de0f2-d8be-4f6a-8481-eed05ce454c3")
-	)
-	(wire
-		(pts
-			(xy 83.82 104.14) (xy 86.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae184198-79fd-4d81-bed5-110d84980492")
-	)
-	(wire
-		(pts
-			(xy 71.12 91.44) (xy 86.36 91.44)
+			(xy 71.12 91.44) (xy 76.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -903,57 +680,47 @@
 		)
 		(uuid "c08e4d35-f55d-40a1-a838-8ec424a5c31e")
 	)
-	(wire
-		(pts
-			(xy 83.82 101.6) (xy 86.36 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc16b382-2eeb-4414-8cbc-dfc71d995835")
-	)
 	(hierarchical_label "2"
 		(shape input)
-		(at 104.14 101.6 0)
+		(at 76.2 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "21669948-1ae6-4358-a871-d8e5c9cf827e")
 	)
 	(hierarchical_label "1"
 		(shape input)
-		(at 104.14 99.06 0)
+		(at 76.2 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "857a6189-6f58-443f-9881-a894502ad125")
 	)
 	(hierarchical_label "8"
 		(shape input)
-		(at 104.14 106.68 0)
+		(at 76.2 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "aad9e7d5-de39-44dc-8c35-0c14608fe42e")
 	)
 	(hierarchical_label "4"
 		(shape input)
-		(at 104.14 104.14 0)
+		(at 76.2 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b3e05562-17c9-4578-99c9-f1f4536b0f1a")
 	)
@@ -988,7 +755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 67.31 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1022,17 +789,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C779430"
 			(at 67.31 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1172,157 +928,6 @@
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
 					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:4D03WGJ0102T5E")
-		(at 95.25 102.87 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "275b4481-e4f3-40b8-a8b7-7c7fd9fb92a8")
-		(property "Reference" "RN1"
-			(at 95.25 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4D03WGJ0102T5E"
-			(at 95.25 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
-			(at 95.25 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Resistor-Networks-Arrays_1KR-102-5_C20197.html"
-			(at 95.25 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1KΩ (102) ±5%"
-			(at 95.25 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 95.25 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "4D03WGJ0102T5E"
-			(at 95.25 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C20197"
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "b1fcec33-3581-4c0a-b78f-ba494245d6d8")
-		)
-		(pin "5"
-			(uuid "a755b8c7-32e8-4702-a827-749c1821ec5b")
-		)
-		(pin "3"
-			(uuid "025c060d-05d3-41eb-ab9c-f26f15140590")
-		)
-		(pin "1"
-			(uuid "aa328bfb-c5b4-489a-b419-c4d74a026e22")
-		)
-		(pin "2"
-			(uuid "2297dc67-8daa-4731-961b-bd66fd16e64a")
-		)
-		(pin "4"
-			(uuid "3a65d512-182e-46b9-aa3c-142022c9d1d5")
-		)
-		(pin "6"
-			(uuid "8e7b57cd-1075-4c27-9ec9-861d6b0afe46")
-		)
-		(pin "8"
-			(uuid "b05258ef-c669-4b06-a861-776c21b4f825")
-		)
-		(instances
-			(project "BinaryClock"
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/72c2d78a-d678-45bf-be56-716a4bf4e93c"
-					(reference "RN3")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
-					(reference "RN6")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
-					(reference "RN4")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
-					(reference "RN2")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
-					(reference "RN1")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
-					(reference "RN5")
 					(unit 1)
 				)
 			)
@@ -1557,7 +1162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 72.39 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1591,17 +1196,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C779430"
 			(at 72.39 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1648,6 +1242,126 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_SIP")
+		(at 81.28 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac85d48-132d-40fd-b87a-e9a09f111d69")
+		(property "Reference" "RN1"
+			(at 87.63 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Pack04_SIP"
+			(at 87.63 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+			(at 81.28 118.745 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 81.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, SIP package"
+			(at 81.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b20222bc-0903-49a4-8f1b-dbcf96e079f5")
+		)
+		(pin "1"
+			(uuid "91d04f70-d994-407a-8ae1-5652ce6be2c3")
+		)
+		(pin "3"
+			(uuid "aa97d6a5-da7c-42c0-85f8-e6cb11ab0739")
+		)
+		(pin "8"
+			(uuid "5daa3cc5-005f-4203-9b7c-e076203d571b")
+		)
+		(pin "5"
+			(uuid "4c2c394c-ac16-46ad-be50-887570aeef5c")
+		)
+		(pin "4"
+			(uuid "b80c1edb-f403-4335-9a38-e4da631bfa08")
+		)
+		(pin "7"
+			(uuid "5ddb4b0c-c24b-495c-82aa-06ea8812f6a5")
+		)
+		(pin "6"
+			(uuid "509a7fc8-37d2-4406-8bb0-a0a999828359")
+		)
+		(instances
+			(project "BinaryClock"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/72c2d78a-d678-45bf-be56-716a4bf4e93c"
+					(reference "RN3")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
+					(reference "RN6")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
+					(reference "RN4")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
+					(reference "RN2")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
+					(reference "RN1")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
+					(reference "RN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 67.31 91.44 180)
 		(unit 1)
@@ -1678,7 +1392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1712,17 +1426,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C779430"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1898,7 +1601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 72.39 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1932,17 +1635,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C779430"
 			(at 72.39 99.06 0)
 			(hide yes)
 			(show_name no)

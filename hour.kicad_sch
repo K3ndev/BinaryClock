@@ -3792,7 +3792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+		(property "Footprint" ""
 			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3815,17 +3815,6 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
-			(at 63.5 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "CD4071S"
 			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3918,7 +3907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.59 61.2648 0)
 			(hide yes)
 			(show_name no)
@@ -3942,17 +3931,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 144.78 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2170999"
-			(at 144.78 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4032,17 +4010,6 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
-			(at 135.89 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5145433"
 			(at 135.89 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4327,17 +4294,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C36938886"
-			(at 50.8 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "79b47e14-c7bb-4adc-8c09-49b827f1825e")
 		)
@@ -4472,7 +4428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" ""
 			(at 190.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4495,17 +4451,6 @@
 			)
 		)
 		(property "Description" "4 bits programmable counter"
-			(at 190.5 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2862976"
 			(at 190.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4683,7 +4628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 75.2348 0)
 			(hide yes)
 			(show_name no)
@@ -4707,17 +4652,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 92.71 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2170999"
-			(at 92.71 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5200,17 +5134,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5145433"
-			(at 248.92 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "13"
 			(uuid "55f2d835-7a24-47d5-be25-d5e146c2f848")
 		)
@@ -5451,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 132.3848 0)
 			(hide yes)
 			(show_name no)
@@ -5475,17 +5398,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 166.37 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2170999"
-			(at 166.37 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6285,17 +6197,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5145433"
-			(at 140.97 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "13"
 			(uuid "55f2d835-7a24-47d5-be25-d5e146c2f849")
 		)
@@ -6379,7 +6280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+		(property "Footprint" ""
 			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6402,17 +6303,6 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
-			(at 156.21 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "CD4071S"
 			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +6476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" ""
 			(at 96.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6609,17 +6499,6 @@
 			)
 		)
 		(property "Description" "4 bits programmable counter"
-			(at 96.52 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2862976"
 			(at 96.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6718,7 +6597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.5 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -6742,17 +6621,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 186.69 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2170999"
-			(at 186.69 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +6676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.69 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -7399,17 +7267,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5145433"
-			(at 170.18 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "13"
 			(uuid "55f2d835-7a24-47d5-be25-d5e146c2f84a")
 		)
@@ -7570,7 +7427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.88 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -7594,17 +7451,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 52.07 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2170999"
-			(at 52.07 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7684,17 +7530,6 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 143.51 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C36938886"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7838,7 +7673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -8256,17 +8091,6 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
-			(at 140.97 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5145433"
 			(at 140.97 160.02 0)
 			(hide yes)
 			(show_name no)
