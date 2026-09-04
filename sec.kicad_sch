@@ -3205,7 +3205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 218.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3228,6 +3228,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 218.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5145433"
 			(at 218.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3559,7 +3570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 179.07 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3582,6 +3593,17 @@
 			)
 		)
 		(property "Description" "4 bits programmable counter"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2862976"
 			(at 179.07 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4153,7 +4175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4176,6 +4198,17 @@
 			)
 		)
 		(property "Description" "4 bits programmable counter"
+			(at 85.09 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2862976"
 			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4275,7 +4308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 124.46 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4298,6 +4331,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5145433"
 			(at 124.46 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4393,7 +4437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 50.8 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4416,6 +4460,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 50.8 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5145433"
 			(at 50.8 173.99 0)
 			(hide yes)
 			(show_name no)

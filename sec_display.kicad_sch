@@ -1275,7 +1275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
 			(at 81.28 118.745 90)
 			(hide yes)
 			(show_name no)
@@ -1299,6 +1299,17 @@
 		)
 		(property "Description" "4 resistor network, parallel topology, SIP package"
 			(at 81.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20197"
+			(at 81.28 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

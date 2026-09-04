@@ -2238,7 +2238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 200.66 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2261,6 +2261,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 200.66 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C32710666"
 			(at 200.66 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2356,7 +2367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2379,6 +2390,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 156.21 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C32710666"
 			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2631,7 +2653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.55x10.3mm_P1.27mm"
 			(at 115.57 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2654,6 +2676,17 @@
 			)
 		)
 		(property "Description" "Binary counter (14-stages) and oscillator"
+			(at 115.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19818877"
 			(at 115.57 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3342,6 +3375,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C511702"
+			(at 69.85 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6d2ee8bb-5e30-4401-a6ca-679931392f04")
 		)
@@ -3863,7 +3907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3886,6 +3930,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 152.4 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C32710666"
 			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)

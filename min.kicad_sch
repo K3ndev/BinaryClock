@@ -3877,7 +3877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 217.17 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3900,6 +3900,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 217.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5145433"
 			(at 217.17 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4074,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 83.82 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4097,6 +4108,17 @@
 			)
 		)
 		(property "Description" "4 bits programmable counter"
+			(at 83.82 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2862976"
 			(at 83.82 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4593,7 +4615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 68.58 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4616,6 +4638,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 68.58 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22357618"
 			(at 68.58 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4867,7 +4900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 123.19 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4890,6 +4923,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 123.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5145433"
 			(at 123.19 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5219,7 +5263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5242,6 +5286,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22357618"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5516,6 +5571,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6316,6 +6382,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C98220"
+			(at 43.18 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "903055b0-4dcb-4fd7-813f-24dd87f47dae")
 		)
@@ -6386,6 +6463,17 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 130.81 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C36938886"
 			(at 130.81 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6482,6 +6570,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C36938886"
+			(at 38.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e67ecc3-2690-4447-a6db-fd90574699b7")
 		)
@@ -6535,7 +6634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 50.8 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6558,6 +6657,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 50.8 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22357618"
 			(at 50.8 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7283,7 +7393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7306,6 +7416,17 @@
 			)
 		)
 		(property "Description" "4 bits programmable counter"
+			(at 177.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2862976"
 			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
