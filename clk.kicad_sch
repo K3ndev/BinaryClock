@@ -2238,7 +2238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 200.66 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2261,6 +2261,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 200.66 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C13527"
 			(at 200.66 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2356,7 +2367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2379,6 +2390,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 156.21 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C13527"
 			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2472,7 +2494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.74 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -2496,6 +2518,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 78.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2907027"
+			(at 78.74 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,7 +2664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 115.57 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2654,6 +2687,17 @@
 			)
 		)
 		(property "Description" "Binary counter (14-stages) and oscillator"
+			(at 115.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C134017"
 			(at 115.57 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2754,7 +2798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 64.4652 0)
 			(hide yes)
 			(show_name no)
@@ -2778,6 +2822,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 66.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C326840"
+			(at 66.04 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +3048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -3016,6 +3071,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 86.36 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2930145"
 			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3074,7 +3140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 83.5152 0)
 			(hide yes)
 			(show_name no)
@@ -3098,6 +3164,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 66.04 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C326840"
+			(at 66.04 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,7 +3386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal"
 			(at 69.85 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3333,6 +3410,17 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3034396"
+			(at 69.85 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,7 +3554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.4 123.4948 0)
 			(hide yes)
 			(show_name no)
@@ -3490,6 +3578,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 148.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 148.59 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 59.9948 0)
 			(hide yes)
 			(show_name no)
@@ -3726,6 +3825,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 111.76 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 111.76 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,7 +3973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3886,6 +3996,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 152.4 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C13527"
 			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)

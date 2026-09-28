@@ -3792,7 +3792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3815,6 +3815,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 63.5 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C97039"
 			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3907,7 +3918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.59 61.2648 0)
 			(hide yes)
 			(show_name no)
@@ -3931,6 +3942,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 144.78 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 144.78 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3987,7 +4009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 135.89 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4010,6 +4032,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 135.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C40551"
 			(at 135.89 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4261,7 +4294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4284,6 +4317,17 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 50.8 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C42416244"
 			(at 50.8 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4428,7 +4472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 190.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4451,6 +4495,17 @@
 			)
 		)
 		(property "Description" "4 bits programmable counter"
+			(at 190.5 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2862976"
 			(at 190.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4628,7 +4683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.52 75.2348 0)
 			(hide yes)
 			(show_name no)
@@ -4652,6 +4707,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 92.71 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 92.71 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,7 +5167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5124,6 +5190,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 248.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C40551"
 			(at 248.92 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5374,7 +5451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.18 132.3848 0)
 			(hide yes)
 			(show_name no)
@@ -5398,6 +5475,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 166.37 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 166.37 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6164,7 +6252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 140.97 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6187,6 +6275,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 140.97 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C40551"
 			(at 140.97 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6280,7 +6379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6303,6 +6402,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 156.21 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C97039"
 			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6476,7 +6586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 96.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6499,6 +6609,17 @@
 			)
 		)
 		(property "Description" "4 bits programmable counter"
+			(at 96.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2862976"
 			(at 96.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6597,7 +6718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 190.5 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -6621,6 +6742,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 186.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 186.69 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -6700,6 +6832,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 59.69 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14675"
+			(at 59.69 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6836,7 +6979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.812 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -6859,6 +7002,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 148.59 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7234,7 +7388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 170.18 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7257,6 +7411,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 170.18 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C40551"
 			(at 170.18 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7427,7 +7592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -7451,6 +7616,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 52.07 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 52.07 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7507,7 +7683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 143.51 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7530,6 +7706,17 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 143.51 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C42416244"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7594,7 +7781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.102 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7617,6 +7804,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 55.88 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7673,7 +7871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.4 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -7697,6 +7895,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 152.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14675"
+			(at 152.4 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8068,7 +8277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 140.97 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8091,6 +8300,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 140.97 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C40551"
 			(at 140.97 160.02 0)
 			(hide yes)
 			(show_name no)

@@ -1435,7 +1435,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ebe8fe7-05bc-436b-a06c-2ad3cc77402b")
+			(uuid "3ebe8fe7-05bc-436b-a06c-2ad3cc77402c")
 		)
 		(instances
 			(project "BinaryClock"
@@ -1852,7 +1852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -1876,6 +1876,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 101.6 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2907044"
+			(at 101.6 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,7 +2021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 97.79 103.1748 0)
 			(hide yes)
 			(show_name no)
@@ -2034,6 +2045,17 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C72478"
+			(at 93.98 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2246,7 +2268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.12 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -2279,11 +2301,22 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2907044"
+			(at 71.12 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "0f34e8c7-fbc1-4db2-82a2-f0b79de0234e")
+			(uuid "0f34e8c7-fbc1-4db2-82a2-f0b79de0234f")
 		)
 		(pin "1"
-			(uuid "8642d27a-147e-4507-ae72-af35857bf46f")
+			(uuid "8642d27a-147e-4507-ae72-af35857bf470")
 		)
 		(instances
 			(project "BinaryClock"
@@ -2393,7 +2426,7 @@
 				)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nF"
 			(at 93.98 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2403,7 +2436,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -2427,6 +2460,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 93.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 93.98 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
