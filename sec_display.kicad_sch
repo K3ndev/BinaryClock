@@ -1341,7 +1341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
 			(at 81.28 118.745 90)
 			(hide yes)
 			(show_name no)

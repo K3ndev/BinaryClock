@@ -1526,10 +1526,10 @@
 		(uuid "11411994-9403-44fd-82cd-c14d35389869")
 	)
 	(junction
-		(at 69.85 71.12)
+		(at 69.85 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d29bfee-5502-4b0f-bc73-ec0bbe64274a")
+		(uuid "673a56d2-0de8-46be-8ce8-8b5b22bfdb02")
 	)
 	(junction
 		(at 152.4 124.46)
@@ -1538,16 +1538,16 @@
 		(uuid "7dcd66a9-5ba6-442f-ac1a-a787d946f847")
 	)
 	(junction
+		(at 69.85 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c3b026-084d-4d32-b73f-535af0e219c0")
+	)
+	(junction
 		(at 86.36 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e492bac8-ffad-40b8-a9f4-b05d2bbe3c29")
-	)
-	(junction
-		(at 69.85 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb3e6bb0-0e67-4d3f-89a4-46d88589b464")
 	)
 	(junction
 		(at 115.57 60.96)
@@ -3511,7 +3511,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 69.85 74.93 90)
+		(at 69.85 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3521,7 +3521,7 @@
 		(dnp no)
 		(uuid "af5c7910-f731-45ce-9584-68715e93d920")
 		(property "Reference" "Y1"
-			(at 61.087 73.025 90)
+			(at 78.613 76.835 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3531,7 +3531,7 @@
 			)
 		)
 		(property "Value" "32.768 kHz"
-			(at 61.087 75.565 90)
+			(at 78.613 74.295 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
