@@ -1,0 +1,29 @@
+10-14 18:55:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'linux'
+10-14 18:55:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.14.8 (main, Oct  1 2026, 00:00:00) [GCC 16.2.1 20260819 (Red Hat 16.2.1-2)]'
+10-14 18:55:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 10.0.6-1.fc44
+10-14 18:55:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 5.0.0
+
+10-14 18:55:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x7f9f786af410>
+10-14 18:55:09 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+10-14 18:55:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='SW2'
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 94:By Sheet GUI initialized
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 103:Ref fp:Footprint(ref='SW2', fp=<pcbnew.FOOTPRINT; proxy of <Swig Object of type 'FOOTPRINT *' at 0x7f9ecb6f0c30> >, fp_id='36CFEC54-0159-4C89-AC11-77885756F906', sheet_id=['Counters', 'min'], filename=['untitled.kicad_sch', 'min.kicad_sch'])
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 104:Levels:['untitled.kicad_sch', 'min.kicad_sch']
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 106:Selecting: 2
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 110:Should invoke level_changed()
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 288:Level_changed() invoked
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 291:self.ref_fp.sheet_id[index] = 'min'
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 292:self.ref_fp.sheet_id = ['Counters', 'min']
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.place_footprints 284:constructing a list of sheets suitable for replication on level:'min', file:'min.kicad_sch'
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.place_footprints 308:suitable sheets are:[]
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 306:self.list_sheetsChoices: []
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['Counters', 'min']
+10-14 18:55:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 314:self.ref_list: []
+10-14 18:55:51 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 195:Saving config sheet
+10-14 18:55:51 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 220:Preparing config for sheet matrix
+10-14 18:55:51 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 227:Saving config file
+10-14 18:55:51 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 229:Saved the config file
+10-14 18:55:51 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 746:Sheets selected: []
+10-14 18:55:51 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 755:Footprints to place: ['SW2']
+10-14 18:55:51 com_github_MitjaNemec_PlaceFootprints.place_footprints 427:Starting placing with matrix layout
+10-14 18:55:51 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 828:Placing complete

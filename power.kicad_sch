@@ -1512,7 +1512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f4cd292-da24-4045-9b85-dac54fb0562d")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0108"
 			(at 31.75 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1573,7 +1573,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/eb60eb51-10a3-4e1a-9546-15b4580a9674"
-					(reference "#PWR0138")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -1590,7 +1590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28d01215-397b-4796-aa88-b84e51d0a094")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0104"
 			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1651,7 +1651,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/eb60eb51-10a3-4e1a-9546-15b4580a9674"
-					(reference "#PWR0112")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -1668,7 +1668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bbfc472-0172-4fb8-86ce-c72249916278")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0109"
 			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1729,7 +1729,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/eb60eb51-10a3-4e1a-9546-15b4580a9674"
-					(reference "#PWR0139")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -1858,7 +1858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "717a05b8-5583-4988-9894-71c987c99634")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0103"
 			(at 64.77 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1919,7 +1919,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/eb60eb51-10a3-4e1a-9546-15b4580a9674"
-					(reference "#PWR0111")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -2051,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fc91dab-3816-42b8-87b8-2cdc2ba410fe")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0105"
 			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2111,7 +2111,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/eb60eb51-10a3-4e1a-9546-15b4580a9674"
-					(reference "#PWR0107")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be332d4c-5ee6-4dcc-9453-df0747798352")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0106"
 			(at 68.58 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2303,7 +2303,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/eb60eb51-10a3-4e1a-9546-15b4580a9674"
-					(reference "#PWR0103")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2322,7 +2322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de44ff97-3582-43f9-8d02-9665b9d50b18")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0107"
 			(at 68.58 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2383,7 +2383,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/eb60eb51-10a3-4e1a-9546-15b4580a9674"
-					(reference "#PWR0113")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

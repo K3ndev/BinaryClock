@@ -526,6 +526,17 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -533,7 +544,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "power",
+        "pattern": "*V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -553,7 +573,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -723,7 +743,7 @@
         "uuid": "b8db7867-2c41-4996-89b7-85623a375f4b"
       }
     ],
-    "used_designators": "RN1-6,SW1-7,D1-24,#PWR1-139,C1-20,R1-16,Y1,U1-14,J1",
+    "used_designators": "RN1-6,SW1-7,D1-24,C1-20,#PWR1-139,Y1,R1-16,U1-14,J1",
     "variants": []
   },
   "sheets": [
