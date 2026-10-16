@@ -1526,10 +1526,10 @@
 		(uuid "11411994-9403-44fd-82cd-c14d35389869")
 	)
 	(junction
-		(at 69.85 71.12)
+		(at 69.85 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d29bfee-5502-4b0f-bc73-ec0bbe64274a")
+		(uuid "673a56d2-0de8-46be-8ce8-8b5b22bfdb02")
 	)
 	(junction
 		(at 152.4 124.46)
@@ -1538,16 +1538,16 @@
 		(uuid "7dcd66a9-5ba6-442f-ac1a-a787d946f847")
 	)
 	(junction
+		(at 69.85 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c3b026-084d-4d32-b73f-535af0e219c0")
+	)
+	(junction
 		(at 86.36 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e492bac8-ffad-40b8-a9f4-b05d2bbe3c29")
-	)
-	(junction
-		(at 69.85 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb3e6bb0-0e67-4d3f-89a4-46d88589b464")
 	)
 	(junction
 		(at 115.57 60.96)
@@ -1825,7 +1825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "019288cf-079c-4ae7-9245-7c85fe8aeb41")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR09"
 			(at 55.88 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1885,7 +1885,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR02")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1902,7 +1902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06a03823-809b-47d9-8a90-6e9384780666")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 55.88 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1962,7 +1962,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1980,7 +1980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "231ee023-0064-4855-94cf-5919a110316c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR014"
 			(at 138.43 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2041,7 +2041,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR07")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2059,7 +2059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2823f287-c690-4ac3-a8c8-dd7f6ecfc069")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 101.6 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2120,7 +2120,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2138,7 +2138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36759eb1-9895-43b2-a9dd-73c05942d0a8")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR07"
 			(at 200.66 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2198,7 +2198,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR015")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2216,7 +2216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3764bce0-ab3d-46d3-ad79-6b77edd954f6")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 202.8033 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2282,6 +2282,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 200.66 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 200.66 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c541c2b-3f29-475d-9a00-f9c2d7089ef8")
 		)
@@ -2327,7 +2349,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "U2")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -2345,7 +2367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "561436fa-0485-493e-8dda-811877576010")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 158.3533 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,6 +2433,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 156.21 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 156.21 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e0dd0343-1fe1-4e42-b6e2-8d9fb8491f2d")
 		)
@@ -2456,7 +2500,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2538,6 +2582,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 78.74 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 78.74 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "27302ba7-0df1-41cf-98f9-0b0a1fcbba7f")
 		)
@@ -2564,7 +2630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "679e1631-ec85-459f-a6bc-7a4768c95b5f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 156.21 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2624,7 +2690,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2642,7 +2708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d15c008-dcf5-4981-84b4-0797bed7ca41")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 117.7133 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,6 +2774,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 115.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 115.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "83fee48c-6c83-4956-90e6-a658efc0ead7")
 		)
@@ -2759,7 +2847,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2776,7 +2864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d40b85d-b1b5-43e3-a65b-a9e8e4fa65c4")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 64.135 69.469 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2842,6 +2930,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 66.04 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 66.04 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36897029-8a89-44fa-933f-0ba34e5f7432")
 		)
@@ -2851,7 +2961,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2869,7 +2979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87e079b0-7b4a-4e89-8e86-c3f873dd4475")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR05"
 			(at 186.69 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2930,7 +3040,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR012")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3092,6 +3202,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 86.36 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 86.36 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "544fa154-d751-4e8c-a3a9-9786f1ee8e71")
 		)
@@ -3118,7 +3250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96c0d398-b3c5-4222-8c5c-498287cab36c")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 67.437 90.0429 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3184,6 +3316,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 66.04 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 66.04 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48fad635-d125-4dc8-9c04-0b954bcf2195")
 		)
@@ -3193,7 +3347,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3211,7 +3365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9870ad68-9c2c-4bb0-99bc-51568abf2425")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 152.4 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3271,7 +3425,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3289,7 +3443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c7bb38-0ddd-4b3b-bff7-790b1118a43a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 152.4 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -3349,7 +3503,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3357,7 +3511,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 69.85 74.93 90)
+		(at 69.85 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3367,7 +3521,7 @@
 		(dnp no)
 		(uuid "af5c7910-f731-45ce-9584-68715e93d920")
 		(property "Reference" "Y1"
-			(at 61.087 73.025 90)
+			(at 78.613 76.835 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3377,7 +3531,7 @@
 			)
 		)
 		(property "Value" "32.768 kHz"
-			(at 61.087 75.565 90)
+			(at 78.613 74.295 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3430,6 +3584,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 69.85 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 69.85 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6d2ee8bb-5e30-4401-a6ca-679931392f04")
 		)
@@ -3457,7 +3633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b01fa520-4db9-421a-bce2-8d46947e9816")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 200.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3517,7 +3693,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3598,6 +3774,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 148.59 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 148.59 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ac9b975-03f7-448a-a464-abf45a414487")
 		)
@@ -3625,7 +3823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d46835-f4c5-48a6-9b17-c0d3c6b717a0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3686,7 +3884,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3704,7 +3902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf8a3500-cbcc-443e-a11e-3a66a51da955")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 115.57 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3764,7 +3962,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3781,7 +3979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc9e635e-1d54-4778-88ef-d4415250ef3d")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 111.76 57.658 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3845,6 +4043,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 111.76 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 111.76 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "adb5edcb-93ec-48dc-ae0f-05ac6ffe3636")
 		)
@@ -3854,7 +4074,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3872,7 +4092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc31309f-0470-4fdf-a2a9-b8383c72e3e3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR06"
 			(at 186.69 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3933,7 +4153,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR013")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3951,7 +4171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f39bf809-2e90-4bfd-afc0-b94410287288")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 158.75 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4017,6 +4237,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 152.4 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 152.4 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c541c2b-3f29-475d-9a00-f9c2d7089ef6")
 		)
@@ -4062,7 +4304,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "U2")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -4080,7 +4322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff075047-1f62-438b-89f0-2b1addbd95ef")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 115.57 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4140,7 +4382,7 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/06cc8139-062b-489e-8e2f-c0ae5744b4b6"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

@@ -735,7 +735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b1c97ec-4d13-417d-ae12-78b5ded0260f")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 68.834 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -810,6 +810,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a45f20cf-8411-4309-af1c-7c1b895f07a4")
 		)
@@ -819,27 +841,27 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/72c2d78a-d678-45bf-be56-716a4bf4e93c"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
-					(reference "D22")
+					(reference "D23")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -857,7 +879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c35db3b-883f-4169-abb2-9d7f82494dc8")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0111"
 			(at 62.23 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -918,27 +940,27 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/72c2d78a-d678-45bf-be56-716a4bf4e93c"
-					(reference "#PWR0124")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
-					(reference "#PWR0136")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
-					(reference "#PWR0128")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
-					(reference "#PWR0120")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
-					(reference "#PWR0116")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
-					(reference "#PWR0132")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -956,7 +978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d9ffd94-884c-4bb7-b017-8a6fccd8a35e")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0110"
 			(at 57.15 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1017,27 +1039,27 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/72c2d78a-d678-45bf-be56-716a4bf4e93c"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
 					(reference "#PWR0118")
 					(unit 1)
 				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
 					(reference "#PWR0114")
 					(unit 1)
 				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
+					(reference "#PWR0110")
+					(unit 1)
+				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
-					(reference "#PWR0130")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -1055,7 +1077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e81432b-91cf-4bd8-ae4c-37036bf0082a")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0113"
 			(at 62.23 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1116,27 +1138,27 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/72c2d78a-d678-45bf-be56-716a4bf4e93c"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
-					(reference "#PWR0137")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
 					(reference "#PWR0121")
 					(unit 1)
 				)
-				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
 					(reference "#PWR0117")
 					(unit 1)
 				)
+				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
+					(reference "#PWR0113")
+					(unit 1)
+				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
-					(reference "#PWR0133")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -1228,6 +1250,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 72.39 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 72.39 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ee07492-08c7-4ec8-9442-b9daece3f19f")
 		)
@@ -1297,7 +1341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
 			(at 81.28 118.745 90)
 			(hide yes)
 			(show_name no)
@@ -1331,6 +1375,28 @@
 			)
 		)
 		(property "LCSC Part" "C12018"
+			(at 81.28 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 81.28 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 81.28 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -1480,6 +1546,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 67.31 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "902a49a9-b372-4f74-bfe1-f9f1b9613e24")
 		)
@@ -1527,7 +1615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c20978-f572-4e48-9ccb-56c33da93667")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0112"
 			(at 57.15 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1588,27 +1676,27 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/72c2d78a-d678-45bf-be56-716a4bf4e93c"
-					(reference "#PWR0123")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
-					(reference "#PWR0135")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
-					(reference "#PWR0127")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
-					(reference "#PWR0119")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
-					(reference "#PWR0115")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
-					(reference "#PWR0131")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -1625,7 +1713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe44b1e9-4050-455f-b366-b1f6c87d5a63")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 72.136 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,6 +1788,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 72.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 72.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd49c868-b781-4c29-a619-55eb56df403a")
 		)
@@ -1709,27 +1819,27 @@
 		(instances
 			(project "BinaryClock"
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/72c2d78a-d678-45bf-be56-716a4bf4e93c"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/8a27fff0-1362-4f1a-9796-2225af35d845"
-					(reference "D23")
+					(reference "D22")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/9d667165-1e46-420a-b7c2-c853bd88335e"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/a2fc0f23-edba-4a42-809e-31a5704900ef"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/c511b7b7-1902-4f18-9b6d-bdf563bc0fbd"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/b8db7867-2c41-4996-89b7-85623a375f4b/d72dbc43-5f9c-4389-b46b-bcc9f20f0691/ca0ecceb-e5a9-4cc1-9364-faafc2408685"
-					(reference "D19")
+					(reference "D18")
 					(unit 1)
 				)
 			)
