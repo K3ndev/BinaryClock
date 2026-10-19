@@ -36,6 +36,9 @@ The counter pins are go straight to the leds trough a resistor.
 
 There are 4 buttons. Those are for setting the time. Those buttons signal goes trough a low pass filter and a pulldown resistor to prevent multiple inputs in a same time. and the signals end at the ic's clock pin.
 
+It's just a stand for the pcb
+![Stand](resurce/render.png)
+
 ### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
