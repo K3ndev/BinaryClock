@@ -17,3 +17,4 @@
 "U4,U5,U6,U8,U9,U11","6","4510","","Package_SO:TSSOP-16_4.4x5mm_P0.65mm","C2862976"
 "U7","1","4071","","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","C97039"
 "Y1","1","32.768 kHz","","Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal","C3034396"
+"pcb", "1", "2 layer", "", "", ""
